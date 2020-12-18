@@ -145,6 +145,7 @@
     -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
             flex-direction: row !important;
+    margin: 20px auto !important;
     padding: 0 30px;
   }
   .how-we-work h1 {
@@ -182,7 +183,7 @@
     padding: 0 50px;
   }
   .how-we-work {
-    margin: 100px !important;
+    margin: 100px auto !important;
   }
   .top {
     padding: 0 100px;
