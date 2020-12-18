@@ -1,0 +1,28 @@
+// How We Work
+.how-we-work {
+  width: 90%;
+  background-color: hsl(256, 26%, 20%);
+  margin: 40px auto;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+
+  h1 {
+    font-family: "DM serif Display";
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    @include button;
+  }
+}

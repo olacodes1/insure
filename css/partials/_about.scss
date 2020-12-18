@@ -1,0 +1,32 @@
+// About Us
+.about-us {
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+
+  hr {
+    width: 20%;
+    margin: 50px 0;
+  }
+
+  h1 {
+    font-family: "DM serif Display";
+    font-size: 38px;
+    letter-spacing: 1px;
+  }
+
+  .row {
+    margin-top: 25px;
+
+    .col {
+      margin-bottom: 30px;
+      h3 {
+        margin: 10px;
+      }
+
+      p {
+        color: hsl(273, 4%, 51%);
+      }
+    }
+  }
+}

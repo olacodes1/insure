@@ -1,0 +1,14 @@
+@mixin button {
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+    transition: 0.3s ease;
+  }
+}

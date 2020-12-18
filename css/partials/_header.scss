@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  background-image: url(../../images/bg-pattern-intro-right-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  .hero-img {
+    order: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+  .hero-text {
+    order: 2;
+    text-align: center;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(../../images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: white;
+    padding: 40px;
+
+    hr {
+      display: none;
+    }
+
+    h1 {
+      font-family: "DM Serif Display", serif;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    button {
+      @include button;
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@media (min-width: 560px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .col {
+      width: 45%;
+      margin: 20px auto;
+    }
+  }
+}
+
+@media (min-width: 630px) {
+  // About
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .col {
+      width: 30%;
+    }
+  }
+
+  // Footer
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .col-1 {
+      width: 30%;
+      margin: 20px auto;
+    }
+  }
+}
+
+// Bereakpoint for 750px to 800px screen
+
+@media (min-width: 750px) {
+  // Nav
+  .menu {
+    display: none;
+  }
+
+  .navlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    background: none;
+    top: -10px;
+    height: 70px;
+    width: auto;
+    line-height: 2;
+
+    li {
+      color: hsl(270, 9%, 17%);
+      margin-right: 15px;
+
+      &.nav-btn {
+        border: 2px solid hsl(270, 9%, 17%);
+        padding: 0 10px;
+
+        &:hover {
+          background-color: hsl(256, 26%, 20%);
+          color: white;
+        }
+      }
+    }
+  }
+
+  // Header
+  header {
+    color: white;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: flex-start !important;
+    padding: 30px 20px;
+    padding-top: 100px;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(../../images/bg-pattern-intro-left-desktop.svg),
+      url(../../images/bg-pattern-intro-right-desktop.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom left, top right !important;
+
+    .hero-img {
+      order: 2 !important;
+      width: 40%;
+      height: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+    .hero-text {
+      text-align: left !important;
+      width: 55%;
+      order: 1 !important;
+      background: none !important;
+
+      hr {
+        display: block !important;
+        width: 30%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // How We Work
+
+  .how-we-work {
+    width: 80%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    padding: 0 30px;
+
+    h1 {
+      text-align: left !important;
+    }
+  }
+
+  // Footer
+
+  .top {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 50px;
+  }
+}
+
+// Bereakpoint for 800px or more screen
+
+@media (min-width: 800px) {
+  // Nav
+  nav {
+    padding: 0 100px !important;
+  }
+
+  // Header
+
+  header {
+    padding: 100px 60px !important;
+    // margin-top: 70px !important;
+  }
+
+  // About
+
+  .about-us hr {
+    margin: 10vh 80px !important;
+    width: 100px !important;
+    height: 5px;
+    background-color: hsl(256, 26%, 20%);
+  }
+  .row {
+    padding: 0 50px;
+  }
+
+  // How We Work
+  .how-we-work {
+    margin: 100px !important;
+  }
+
+  // Footer
+  .top {
+    padding: 0 100px;
+  }
+}
